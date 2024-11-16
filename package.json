@@ -7,7 +7,7 @@
     "build": "rm -rf dist && cp -R src dist",
     "serve": "pnpm build && http-server dist",
     "build-gh-pages": "rm -rf dist && cp -R src gh-pages",
-    "deploy-gh-pages": "./deploy.sh"
+    "deploy-gh-pages": "./deploy-gh-pages.sh"
   },
   "keywords": [],
   "author": "",
