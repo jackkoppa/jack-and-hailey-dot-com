@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cp -R src dist"
+    "build": "rm -rf dist && cp -R src dist",
+    "serve": "pnpm build && http-server dist"
   },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
 }
