@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "rm -rf dist && cp -R src dist",
-    "serve": "pnpm build && http-server dist"
+    "serve": "pnpm build && http-server dist",
+    "build-gh-pages": "rm -rf dist && cp -R src gh-pages",
+    "deploy-gh-pages": "./deploy.sh"
   },
   "keywords": [],
   "author": "",
