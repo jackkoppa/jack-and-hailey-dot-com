@@ -4,5 +4,5 @@ git checkout -b gh-pages
 pnpm build-gh-pages
 git add .
 git commit -m "deploy: gh-pages"
-git push origin --force
+git push origin --set-upstream origin gh-pages --force
 git checkout $ORIGINAL_BRANCH

@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rm -rf dist && cp -R src dist",
     "serve": "pnpm build && http-server dist",
-    "build-gh-pages": "rm -rf dist && cp -R src gh-pages",
+    "build-gh-pages": "rm -rf dist && cp -R src docs",
     "deploy-gh-pages": "./deploy-gh-pages.sh"
   },
   "keywords": [],
